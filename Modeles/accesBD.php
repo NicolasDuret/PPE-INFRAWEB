@@ -17,9 +17,9 @@ class accesBD
 	public function __construct()
 		{
 		$this->hote="localhost";
-		$this->login="root";
-		$this->passwd="";
-		$this->base="PPE2";
+		$this->login="ppe2";
+		$this->passwd="ppe2";
+		$this->base="ppe2mairie";
 		$this->connexion();
 		
 		}
