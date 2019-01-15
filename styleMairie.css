@@ -81,7 +81,6 @@ h3
 	margin: 0 auto;
     width:80%;
 	height:100%;
-	background-color:#FFFFFF;
 }
 
 .cadreHautLogo
@@ -89,7 +88,6 @@ h3
 	width:20%;
 	left : 0;
 	height:20%;
-	background-color:#FFFFFF;
 	text-align: center;
 }
 
@@ -99,7 +97,6 @@ h3
 	width:55%;
 	left : 20%;
 	height:20%;
-	background-color:#FFFFFF;
 	font-family : comic sans MS;
 	text-align : center;
 	
@@ -123,7 +120,6 @@ h3
 	right : 0;
 	height:15%;
 	top : 22%;
-	background-color:#FFFFFF;
 	font-family : comic sans MS;
 	text-align : center;
 	
@@ -181,66 +177,17 @@ h3
 	display: inline;
 }
 
-/*.slideshow
-{
-    position: relative;
-    width : 100px;
-	height: 141px;
-    margin:  0px auto;
-    overflow: hidden;
-}
-
-@keyframes AutoSlide 
-{
-    0%
-	{
-        left: 0px; /*1ère image*/
-    }
-	20%
-	{
-		margin : 0px;
-	}
-    25% 
-	{
-        left: -100px; /*2ème image*/
-    }
-    45% 
-	{
-        margin : 0px;
-	}
-	50%
-	{
-		left: -200px; /*3ème image*/
-    }
-	70% 
-	{
-        margin : 0px;
-	}
-	75%
-	{
-		left: -300px; /*4ème image*/
-    }
-	100%
-	{
-		margin : 0px;
-    }
-}*/
-
-
 #menu-bar {
-  width: 95%;
+  width: 100%;
   margin: 0px 0px 0px 0px;
   padding: 6px 6px 4px 6px;
   height: 40px;
   line-height: 100%;
-  border-radius: 24px;
-  -webkit-border-radius: 24px;
-  -moz-border-radius: 24px;
   box-shadow: 2px 2px 3px #566621;
   -webkit-box-shadow: 2px 2px 3px #566621;
   -moz-box-shadow: 2px 2px 3px #566621;
-  background: #151754;
-  border: solid 1px #6D1A41;
+    background: #66cccc;
+  border: solid 1px #66cccc;
   position:relative;
   z-index:999;
 }
@@ -256,7 +203,7 @@ h3
   font-family: arial;
   font-style: normal;
   font-size: 16px;
-  color: #E7E5E5;
+  color: black;
   text-decoration: none;
   display: block;
   padding: 6px 20px 6px 20px;
@@ -265,7 +212,7 @@ h3
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  text-shadow: 2px 2px 3px #5338FF;
+  text-shadow: 2px 2px 3px white;
 }
 #menu-bar li ul li a {
   margin: 0;
@@ -391,6 +338,27 @@ h3
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
+}
+
+.diapo{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top:8vh;
+}
+.carousel slide{
+    display:flex;
+    justify-content: center;
+}
+.logo{
+    width:18vh;
+    height:15vh;
+    border-radius:50%;
+    border-color:#99cc66;
+}
+body{
+    background-color: rgba(153,204,102,0.5);
 }
 
 

@@ -23,3 +23,4 @@ if ((isset($_GET['vue']))&& (isset($_GET['action'])))
 //affichage du pied de page
 $monControleur->affichePiedPage();
 ?>
+
