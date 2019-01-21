@@ -16,7 +16,7 @@
 	<body>
 		<div class="fondMilieu">
 			<div class="cadreHautLogo">
-				<img src="Images/logo.png" class="logo">
+				<a href="index.php"> <img src="Images/logo_fond.png" class="logo"></a>
 			</div>
 			<div class="cadreHautMilieu">
 				<br><h2><i>  " la gestion de vos clubs en un clic ... "</i></h2></br>

@@ -1,16 +1,4 @@
-﻿/*
-Extra small<576px
-Small >=576px <768px
-Medium >=768px <992px
-Large >=992px <1200px
-Extra large >=1200px
-
-Max container width		0px 		576px		768px		992px		1200px
-Class prefix			 .col-		.col-sm-	.col-md-	.col-lg-	.col-xl-
-*/
-/* Extra small devices (portrait phones, less than 576px) and all if not redefine*/
-
-table
+﻿table
 {
 	transition-property : color ;
 	transition-duration : 1s;
@@ -18,13 +6,13 @@ table
 	border-style : solid;
 	text-align : center;
 	margin: auto;
-    
+
 }
 
 table:hover
 {
 	border-color : red;
-    
+
 }
 
 h1
@@ -47,10 +35,10 @@ h1
 	text-align : center;
 }
 
-.apparaitreDrapeau:hover 
+.apparaitreDrapeau:hover
 {
 	background-image : url(drapeau.jpg);
-	
+
 }
 h2
 {
@@ -76,7 +64,7 @@ h3
 	color : blue;
 }
 
-.fondMilieu 
+.fondMilieu
 {	position : relative;
 	margin: 0 auto;
     width:80%;
@@ -344,7 +332,6 @@ h3
     margin: 0 auto;
     margin-top:27vh;
     width: 60%;
-
 }
 
 .d-block{
@@ -353,6 +340,7 @@ h3
 .carousel slide{
     display:flex;
     justify-content: center;
+
 }
 .logo{
     width:18vh;
