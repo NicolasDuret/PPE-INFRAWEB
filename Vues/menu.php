@@ -62,37 +62,37 @@
         </div>
     </nav>
 </div>
+
 <div class="diapo">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="Images/arc.jpg" class="d-block" alt="">
-                <p>Club de Tir à l'arc</p>
+
             </div>
             <div class="carousel-item">
                 <img src="Images/basket.jpg" class="d-block" alt="">
-                <p>Club de Basketball</p>
+
             </div>
             <div class="carousel-item">
                 <img src="Images/natation.jpg" class="d-block" alt="">
-                <p>Club de Natation</p>
+
             </div>
             <div class="carousel-item">
                 <img src="Images/rugby.jpg" class="d-block" alt="">
-                <p>Club de Rugby</p>
+
             </div>
             <div class="carousel-item">
                 <img src="Images/judo.jpg" class="d-block" alt="">
-                <p>Club de Judo</p>
+
             </div>
             <div class="carousel-item">
                 <img src="Images/gym.jpg" class="d-block" alt="">
-                <p>Club de Gymnastique</p>
+
             </div>
             <div class="carousel-item">
                 <img src="Images/hand.jpg" class="d-block" alt="">
-                <p>Club de Handball</p>
+
             </div>
         </div>
     </div>
-</div>

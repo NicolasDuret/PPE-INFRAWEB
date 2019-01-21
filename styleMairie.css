@@ -107,7 +107,7 @@ h3
 	width:25%;
 	right : 0;
 	height:20%;
-	background-color:#FFFFFF;
+	background-color:#E2E2E2;
 	text-align : right;
 	font-family : comic sans MS;
 	text-align : center;
@@ -341,11 +341,14 @@ h3
 }
 
 .diapo{
-    position:absolute;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    padding-top:8vh;
+    margin: 0 auto;
+    margin-top:27vh;
+    width: 60%;
+
+}
+
+.d-block{
+    border-radius:2%;
 }
 .carousel slide{
     display:flex;
@@ -358,7 +361,8 @@ h3
     border-color:#99cc66;
 }
 body{
-    background-color: rgba(153,204,102,0.5);
+    background-color: #E2E2E2;
+
 }
 
 
