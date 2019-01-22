@@ -5,5 +5,7 @@
  * Date: 10/01/2019
  * Time: 10:01
  */
-?>
-<div class="testonsgit"></div>
+
+<div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+</div>
