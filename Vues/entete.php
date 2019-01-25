@@ -2,6 +2,7 @@
 	<head>
 		<title>Ma Mairie</title>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="shortcut icon" href="avion.png" type="image/x-icon"/>
@@ -13,15 +14,17 @@
     </head>
 	<body>
     <div class="Logo_banniere">
+
     <div class="fondMilieu">
             <div class="cadreHautMilieu">
                 <div class="logo container">
                 <div class="Logo">
-                <img src="Images/aussonne.png"></img>
+                <a href="index.php">
+                <img src="Images/aussonne.png" /></a>
+                </div>
             </div>
             </div>
-            </div>
+    </div>
         <div class="fondMilieu">
         </div>
         </div>
-    </div>

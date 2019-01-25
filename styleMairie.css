@@ -2,6 +2,7 @@
 	background-color: #E2E2E2;
 	overflow:hidden;
 	text-align: center;
+	font-family: 'Sarabun', sans-serif;
 }
 
 
@@ -35,7 +36,7 @@ h1
 {
 	transition-property : color ;
 	transition-duration : 1s;
-	font-family:"times new roman";
+	font-family: 'Sarabun', sans-serif;
 	font-size : 36;
 	color : black;
 	text-align : center;
@@ -54,14 +55,14 @@ h3
 }
 .texteEnRouge
 {
-	font-family:"times new roman";
+	font-family: 'Sarabun', sans-serif;
 	font-size : 18;
 	color : red;
 }
 
 .texteEnBleu
 {
-	font-family:"times new roman";
+	font-family: 'Sarabun', sans-serif;
 	font-size : 36;
 	color : blue;
 }
@@ -87,7 +88,7 @@ h3
 	width:55%;
 	left : 20%;
 	height:20%;
-	font-family : comic sans MS;
+	font-family: 'Sarabun', sans-serif;
 	text-align : center;
 
 }
@@ -99,7 +100,7 @@ h3
 	height:20%;
 	background-color:#E2E2E2;
 	text-align : right;
-	font-family : comic sans MS;
+	font-family: 'Sarabun', sans-serif;
 	text-align : center;
 }
 
@@ -109,7 +110,7 @@ h3
 	width:100%;
 	height:15%;
 	top : 24%;
-	font-family : comic sans MS;
+	font-family: 'Sarabun', sans-serif;
 	text-align : center;
     justify-content: space-between;
 
@@ -226,6 +227,9 @@ h3
 	z-index: 1;
 }
 
+.nav-link dropdown-toggle{
+	justify-content: space-between;
+}
 
 
 /* Small devices (landscape phones, 576px and up) */
