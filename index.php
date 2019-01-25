@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 //include du fichier CONTROLEUR
 $path=$_SERVER['DOCUMENT_ROOT'].'/PPE_InfraWeb';

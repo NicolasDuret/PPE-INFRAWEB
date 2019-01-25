@@ -15,8 +15,7 @@
     <div class="Logo_banniere">
     <div class="fondMilieu">
             <div class="cadreHautMilieu">
-                <br><h2><i>  " la gestion de vos clubs en un clic ... "</i></h2></br>
-            <div class="logo container">
+                <div class="logo container">
                 <div class="Logo">
                 <img src="Images/aussonne.png"></img>
             </div>
