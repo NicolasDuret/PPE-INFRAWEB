@@ -23,4 +23,11 @@ if ((isset($_GET['vue']))&& (isset($_GET['action'])))
 $monControleur->affichePage($_GET['action'],$_GET['vue']);
 //affichage du pied de page
 $monControleur->affichePiedPage();
+
+if ((isset($_GET['vue']))&& (isset($_GET['action']))){echo "<script>$('#carouselExampleIndicators').removeClass('d-block').addClass('d-none');
+</script>";$monControleur->affichePage($_GET['action'],$_GET['vue']);
+}
+else {echo "<script>$('#carouselExampleIndicators').removeClass('d-none').addClass('d-block');
+</script>";}
+
 ?>,
