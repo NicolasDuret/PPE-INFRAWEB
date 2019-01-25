@@ -54,7 +54,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="construction.php">Ajouter un entraineur</a>
                         <a class="dropdown-item" href="construction.php">Voir un entraineur</a>
-                        <a class="dropdown-item" href="construction.php">Mofier un entraineur</a>
+                        <a class="dropdown-item" href="construction.php">Modifier un entraineur</a>
                         <a class="dropdown-item" href="construction.php">Voir les equipes de l'entraineur</a>
                     </div>
                 </li>
