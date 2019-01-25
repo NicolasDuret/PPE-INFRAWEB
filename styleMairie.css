@@ -218,12 +218,9 @@ h3
 }
 
 .dropdown-menu{
-	background-color: orangered;
+	background-color: darkgrey;
 }
 
-hover .dropdown-menu{
-	background-color: orange;
-}
 
 .collapse{
 	margin: 0 auto;
