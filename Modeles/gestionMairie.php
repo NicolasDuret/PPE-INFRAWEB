@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 include 'Conteneurs/conteneurClub.php';
 include 'Conteneurs/conteneurEntraineur.php';
 include 'Conteneurs/conteneurRessource.php';

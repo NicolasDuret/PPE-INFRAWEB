@@ -1,4 +1,4 @@
-﻿body{
+body{
 	background-color: #E2E2E2;
 	overflow:hidden;
 	text-align: center;
@@ -69,24 +69,18 @@ h3
 .fondMilieu
 {	position : relative;
 	margin: 0 auto;
-    width:80%;
+    width:100%;
 	height:100%;
 }
 
-.cadreHautLogo
-{	position : absolute;
-	width:20%;
-	left : 0;
-	height:20%;
-	text-align: center;
+.Logo
+{
+
 }
 
 .cadreHautMilieu
 {
-    position : absolute;
-	width:55%;
-	left : 20%;
-	height:20%;
+    position: center;
 	font-family : comic sans MS;
 	text-align : center;
 
@@ -101,17 +95,18 @@ h3
 	text-align : right;
 	font-family : comic sans MS;
 	text-align : center;
+
 }
 
 .menu
 {
 	position : absolute;
 	width:100%;
+	right : 0;
 	height:15%;
 	top : 24%;
 	font-family : comic sans MS;
 	text-align : center;
-    justify-content: space-between;
 
 }
 
@@ -178,11 +173,6 @@ h3
     border-color:#99cc66;
 }
 
-.diapo{
-    margin: 0 auto;
-    margin-top:32vh;
-    width: 40%;
-}
 
 
 .pcaroussel{
@@ -208,21 +198,15 @@ h3
 
 .img-fluid{
 	width: 100%;
-	height: 68%;
+	height: 100%;
+
+
 }
 
 .dropdown-item{
 	text-align: center;
 	z-index: 1;
 }
-
-.collapse{
-	margin: 0 auto;
-	justify-content: center;
-	text-align: center;
-}
-
-
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {

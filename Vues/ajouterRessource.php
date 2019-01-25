@@ -1,4 +1,4 @@
-﻿<div class="centrePage"><BR><BR><BR>
+<div class="centrePage"><BR><BR><BR>
 <FORM action = 'index.php?vue=ressource&action=enregistrer' method = 'post'>
 	<TABLE>
 		<TR>
