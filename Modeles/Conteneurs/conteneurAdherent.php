@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 include $path.'/Modeles/Metiers/adherent.php';
 
 Class conteneurAdherent

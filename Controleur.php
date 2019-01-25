@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 //include du fichier GESTION pour les objets (Modeles)
 include 'Modeles/gestionMairie.php';
 
