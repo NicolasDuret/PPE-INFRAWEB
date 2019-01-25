@@ -58,6 +58,27 @@
                         <a class="dropdown-item" href="construction.php">Voir les equipes de l'entraineur</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Adherents
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="construction.php">Ajouter un adherent</a>
+                        <a class="dropdown-item" href="construction.php">Voir un adherent</a>
+                        <a class="dropdown-item" href="construction.php">Modifier un adherent</a>
+                        <a class="dropdown-item" href="construction.php">Voir les adherents d'une equipe</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Planning
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="construction.php">Affecter une equipe</a>
+                        <a class="dropdown-item" href="construction.php">Voir le planning complet</a>
+                        <a class="dropdown-item" href="construction.php">Modifier une affectation</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>
