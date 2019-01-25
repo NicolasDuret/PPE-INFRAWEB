@@ -13,6 +13,4 @@
         <head>
 	<body>
     <div class="fondMilieu">
-        <div class="Logo_banniere">
-
-        </div>
+        <div class="Logo_banniere"></div>
