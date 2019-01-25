@@ -1,8 +1,6 @@
 ﻿<html>
 	<head>
-		<title>
-			Ma Mairie
-		</title>
+		<title>Ma Mairie</title>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -14,13 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <head>
 	<body>
-		<div class="fondMilieu">
-			<div class="cadreHautLogo">
-				<a href="index.php"> <img src="Images/logo_fond.png" class="logo"></a>
-			</div>
-			<div class="cadreHautMilieu">
-				<br><h2><i>  " la gestion de vos clubs en un clic ... "</i></h2></br>
-			</div>
-			<div class = "cadreHautDroit">
-				<h2 class="apparaitreDrapeau"> InfraWeb <h2>
-			</div>
+    <div class="fondMilieu">
+        <div class="Logo_banniere">
+
+        </div>

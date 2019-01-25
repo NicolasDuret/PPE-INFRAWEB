@@ -27,6 +27,7 @@ class Controleur
 		{
 		//appel de la vue de l'entête
 		require 'Vues/entete.php';
+
 		}
 		
 		
