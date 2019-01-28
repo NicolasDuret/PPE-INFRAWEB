@@ -30,4 +30,4 @@ if ((isset($_GET['vue']))&& (isset($_GET['action']))){echo "<script>$('#carousel
 else {echo "<script>$('#carouselExampleIndicators').removeClass('d-none').addClass('d-block');
 </script>";}
 
-?>,
+?>
