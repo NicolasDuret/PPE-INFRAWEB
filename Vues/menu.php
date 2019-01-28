@@ -1,5 +1,5 @@
 ﻿<div class="menu">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="etendu">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -83,6 +83,11 @@
         </div>
     </nav>
 </div>
+
+<div class="couleur">
+    <img src="Images/fond_de_couleur.png"/>
+</div>
+
 
 <?php
 include_once 'diapo.php';

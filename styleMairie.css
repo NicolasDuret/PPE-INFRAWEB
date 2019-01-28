@@ -1,5 +1,5 @@
 ﻿body{
-	background-color: #E2E2E2;
+	background-color:white;
 	overflow:hidden;
 	text-align: center;
 	font-family: 'Sarabun', sans-serif;
@@ -9,8 +9,8 @@
 .Logo_banniere{
     position: absolute;
     width: 100%;
-    height:27%;
-    top: 0%;
+    height:28.4%;
+    top: 0vh;
 
     background: url('Images/multisport.jpg') no-repeat center;
     background-size: cover;
@@ -179,12 +179,6 @@ h3
     border-color:#99cc66;
 }
 
-.diapo{
-    margin: 0 auto;
-    margin-top:32vh;
-    width: 40%;
-}
-
 
 .pcaroussel{
 	position:relative;
@@ -214,16 +208,28 @@ h3
 
 .dropdown-item{
 	text-align: center;
+	color: white;
 	z-index: 1;
 }
 
 .dropdown-menu{
-	background-color: orangered;
+	background-color: dimgrey;
+	margin: 0 auto;
+	justify-content: center;
 }
 
-hover .dropdown-menu{
-	background-color: orange;
+ .dropdown-item:hover{
+	background-color: darkgrey;
 }
+
+.navbar-toggler:hover{
+	background-color:dimgray;
+}
+
+#etendu{
+	z-index: 1;
+}
+
 
 .collapse{
 	margin: 0 auto;
@@ -240,14 +246,15 @@ hover .dropdown-menu{
 }
 
 
+.couleur{
+	display: none;
+}
+
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-
-
-}
-
-@media (min-width: 576px) {
 
 
 }
@@ -263,7 +270,28 @@ hover .dropdown-menu{
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+	#etendu{
+		margin: 0 auto;
+		top: 4.4vh;
+		justify-content: center;
+		width: 80%;
+		z-index: 1;
+		border-radius:2%;
+	}
+
+	.img-fluid {
+		width: 80%;
+	}
+
+	.carousel-control-next{
+		right: 5vw;
+	}
+
+	.carousel-control-prev{
+		left: 5vw;
+	}
+
+
 
 }
-
 
