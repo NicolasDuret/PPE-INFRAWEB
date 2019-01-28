@@ -18,13 +18,12 @@
     <div class="fondMilieu">
             <div class="cadreHautMilieu">
                 <div class="logo container">
-                <div class="Logo">
-                <a href="index.php">
-                <img src="Images/aussonne.png" /></a>
+                    <div class="Logo">
+                        <a href="index.php">
+                        <img src="Images/aussonne.png" /></a>
+                    </div>
                 </div>
             </div>
-            </div>
     </div>
-        <div class="fondMilieu">
-        </div>
-        </div>
+        <div class="fondMilieu"></div>
+    </div>
