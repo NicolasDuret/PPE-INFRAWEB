@@ -27,7 +27,8 @@ class Controleur
 		{
 		//appel de la vue de l'entête
 		require 'Vues/entete.php';
-
+		require 'Vues/modalConnex.php';
+		require 'Vues/modalRetour.php';
 		}
 		
 		
