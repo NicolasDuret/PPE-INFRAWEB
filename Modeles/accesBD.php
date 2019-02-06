@@ -283,6 +283,10 @@ class accesBD
 			die('Erreur sur donneProchainIdentifiant : '+$requete->errorCode());
 		}
 		}
+		public function getconn()
+        {
+            return $this->conn;
+        }
 		
 	}
 
