@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+    $("#tabClub").dataTable();
     $("#imgLogin").click(function(){
         $("#myModal").modal();
     });

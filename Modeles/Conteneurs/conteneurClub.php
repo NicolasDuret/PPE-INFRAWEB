@@ -28,18 +28,32 @@ Class conteneurClub
 		}	
 		
 	//METHODE RETOURNANT LA LISTE DES CLUBS-----------------------------------------------------------------------------------------
-	public function listeLesClubs()
-		{
-		$liste ='<table border=3>
-					<tr><td>Nom</td><td>Adresse</td><td>Email</td><td>Résmumé Activité</td></tr>';
-		foreach ($this->lesClubs as $unClub)
-			{	
-				$liste = $liste.'<tr><td>'.$unClub->getNomClub().'</td><td>'.$unClub->getAdresseClub().'</td><td>'.$unClub->getEmailClub().'</td><td>'.$unClub->getResumeActiviteClub().'</td></tr>';
-			}
-		$liste = $liste.'</table>';
-		return $liste;
+	public function listeLesClubs(){
+		$liste ='<div class="table-responsive">
+	<table id="tabClub" class="table table-striped table-bordered" cellspacing="0">
+		<thead>
+			<tr>
+			<td>Nom</td>
+			<td>Adresse</td>
+			<td>Email</td>
+			<td>RésmuméActivité</td>
+			</tr>
+		</thead>
+	<tbody>';
+		foreach ($this->lesClubs as $unClub){
+			$liste = $liste.'
+	<tr>
+		<td>'.$unClub->getNomClub().'</td>
+		<td>'.$unClub->getAdresseClub().'</td>
+		<td>'.$unClub->getEmailClub().'</td>
+		<td>'.$unClub->getResumeActiviteClub().'</td>
+	</tr>';
 		}
-		
+		$liste = $liste.'
+	</tbody>
+	</table>';
+		return $liste;
+	}
 		//METHODE RETOURNANT LA LISTE DES CLUBS DANS UNE BALISE <SELECT>------------------------------------------------------------------
 	public function lesClubsAuFormatHTML()
 		{
