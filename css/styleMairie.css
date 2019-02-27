@@ -35,12 +35,6 @@ table
 	margin: auto;
 }
 
-table:hover
-{
-	border-color : red;
-
-}
-
 h1
 {
 	transition-property : color ;
@@ -139,12 +133,12 @@ h3
 .centrePage
 {
 	position : relative;
-	width:78%;
-	height:55%;
+	width:76%;
+	height:64%;
 	left : 10%;
 	top : 35%;
 	text-align : center;
-	margin-top : 25px;
+	margin-top : -24px;
 	background-color: #99aab5;
 	overflow:auto;
 	border-radius : 24px;

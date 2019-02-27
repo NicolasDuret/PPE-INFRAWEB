@@ -27,28 +27,27 @@ Class conteneurRessource
 		}	
 		
 	//METHODE RETOURNANT LA LISTE DES Ressources-----------------------------------------------------------------------------------------
-	public function listeDesRessources()
-		{
-		$liste = '';
-		foreach ($this->lesRessources as $uneRessource)
-			{		
-				$liste = $liste.'Ressource : '.$uneRessource->getNomRessource().'<br>';
-			}
-		return $liste;
+	public function listeDesRessources(){
+		$liste ='<div class="table-responsive">
+	<table id="tabClub" class="table table-striped table-bordered" cellspacing="0">
+		<thead>
+			<tr>
+			<td>Ressource</td>
+			
+			</tr>
+		</thead>
+	<tbody>';
+		foreach ($this->lesRessources as $uneRessource){
+			$liste = $liste.'
+	<tr>
+		<td>'.$uneRessource->getNomRessource().'</td>
+	</tr>';
 		}
-		
-		//METHODE RETOURNANT LA LISTE DES Ressources DANS UNE BALISE <SELECT>------------------------------------------------------------------
-	public function lesRessourcesAuFormatHTML()
-		{
-		$liste = "<SELECT name = 'idRessource'>";
-		foreach ($this->lesRessources as $uneRessource)
-			{
-			$liste = $liste."<OPTION value='".$uneRessource->getIdRessource()."'>".$uneRessource->getNomRessource()."</OPTION>";
-			}
-		$liste = $liste."</SELECT>";
+		$liste = $liste.'
+	</tbody>
+	</table>';
 		return $liste;
-		}		
-
+	}
 //METHODE RETOURNANT UNE LANGUE A PARTIR DE SON NUMERO--------------------------------------------	
 	public function donneObjetRessourceDepuisNumero($unIdRessource)
 		{
