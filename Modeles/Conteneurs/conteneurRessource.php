@@ -38,7 +38,7 @@ Class conteneurRessource
 		</thead>
 	<tbody>';
 		foreach ($this->lesRessources as $uneRessource){
-			$liste = $liste.'
+			$liste = $liste.' 
 	<tr>
 		<td>'.$uneRessource->getNomRessource().'</td>
 	</tr>';
