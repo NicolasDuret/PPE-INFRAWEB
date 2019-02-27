@@ -25,7 +25,7 @@
                         <a class="dropdown-item" href="index.php?vue=ressource&action=visualiser">Voir les ressources</a>
                         <a class="dropdown-item" href="construction.php">Modifier une ressource</a>
                     </div>
-                </li>
+                </li> 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         EQUIPE
