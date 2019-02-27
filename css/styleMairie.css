@@ -7,7 +7,7 @@
 
 .img-responsive{
 	width: 5vw;
-
+	cursor: pointer;
 }
 
 .Logo_banniere{
@@ -294,7 +294,6 @@ h3
 		left: 5vw;
 		display: flex;
 	}
-
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -311,11 +310,6 @@ h3
 	.img-fluid {
 		width: 80%;
 	}
-
-
-
-
-
 }
 
 @media (min-height: 600px) {
