@@ -23,19 +23,16 @@
 
     <div class="fondMilieu">
         <?php
-        if(!(isset($_SESSION['id']) && isset($_SESSION['type'])))
-
-        {
+        if(!(isset($_SESSION['id']) && isset($_SESSION['type']))){
             echo '
                 <img id="imgLogin" class="img-responsive" src="Images/login.png"></img>';
         }
-        else{
+        else {
             echo '
                 <img id="imgLogout" class="img-responsive" src="Images/logout.png"></img>';
         }
-
         ?>
-
+        <div class="phrase">Le sport c'est la vie</div>
             <div class="cadreHautMilieu">
                 <div class="logo container">
                     <div class="Logo">
@@ -46,5 +43,4 @@
                 </div>
             </div>
     </div>
-
     </div>

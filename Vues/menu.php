@@ -11,9 +11,7 @@
                         CLUB
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="index.php?vue=club&action=ajouter">Ajouter un club</a>
                         <a class="dropdown-item" href="index.php?vue=club&action=visualiser">Voir les club</a>
-                        <a class="dropdown-item" href="construction.php">Modifier un club</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -21,9 +19,7 @@
                         RESSOURCE
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="index.php?vue=ressource&action=ajouter">Ajouter une ressource</a>
                         <a class="dropdown-item" href="index.php?vue=ressource&action=visualiser">Voir les ressources</a>
-                        <a class="dropdown-item" href="construction.php">Modifier une ressource</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -31,9 +27,7 @@
                         EQUIPE
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="construction.php">Ajouter une equipe</a>
                         <a class="dropdown-item" href="construction.php">Voir une equipe</a>
-                        <a class="dropdown-item" href="construction.php">Midifier une equipe</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -41,10 +35,7 @@
                         JOUR / SEMAINE
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="construction.php">Ajouter un jour</a>
                         <a class="dropdown-item" href="construction.php">Voir un jour</a>
-                        <a class="dropdown-item" href="construction.php">Modifier un jour</a>
-                        <a class="dropdown-item" href="construction.php">Voir les equipes de la journée</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -52,10 +43,7 @@
                         ENTRAINEUR
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="construction.php">Ajouter un entraineur</a>
                         <a class="dropdown-item" href="construction.php">Voir un entraineur</a>
-                        <a class="dropdown-item" href="construction.php">Modifier un entraineur</a>
-                        <a class="dropdown-item" href="construction.php">Voir les equipes de l'entraineur</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -63,10 +51,7 @@
                         ADHERENTS
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="construction.php">Ajouter un adherent</a>
                         <a class="dropdown-item" href="construction.php">Voir un adherent</a>
-                        <a class="dropdown-item" href="construction.php">Modifier un adherent</a>
-                        <a class="dropdown-item" href="construction.php">Voir les adherents d'une equipe</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -74,9 +59,7 @@
                         PLANNING
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="construction.php">Affecter une equipe</a>
                         <a class="dropdown-item" href="construction.php">Voir le planning complet</a>
-                        <a class="dropdown-item" href="construction.php">Modifier une affectation</a>
                     </div>
                 </li>
             </ul>

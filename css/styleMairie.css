@@ -45,7 +45,6 @@ h1
 	text-align : center;
 }
 
-
 h2
 {
 	text-align : center;
@@ -253,11 +252,9 @@ h3
 	justify-content: space-between;
 }
 
-
 .couleur{
 	display: none;
 }
-
 
 .carousel-indicators{
 	display: none;
@@ -273,8 +270,6 @@ h3
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
-
 
 }
 
@@ -322,3 +317,13 @@ h3
 	}
 }
 
+.phrase{
+	position: absolute;
+	left: 50vw;
+	top: 0vh;
+	margin-left: -199px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: capitalize;
+	top:0;
+}
