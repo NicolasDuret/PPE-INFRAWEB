@@ -22,10 +22,8 @@
                         <label class="radio-inline"><input type="radio" name="rblogin" id="rba" value="rba" required>Administrateur</label>
                     </div>
                     <button type="submit" class="btn btn-success btn-block" class="submit"><span class="fas fa-power-off"></span> Login</button>
+                    <button type="button" class="btn btn-success btn-block" id="mpperdu"><span class="fas fa-power-off"></span> Mot de passe oublié</button>
                 </form>
-            </div>
-            <div class="modal-right">
-                <button type="button"  class="btn btn-danger btn-default pull-left" data-dismiss="modal" ><span class="fas fa-times"></span>Mot de passe perdu</button>
             </div>
             <div class="modal-footer">
                 <button type="button"  class="btn btn-danger btn-default pull-left" data-dismiss="modal" ><span class="fas fa-times"></span> Cancel</button>
