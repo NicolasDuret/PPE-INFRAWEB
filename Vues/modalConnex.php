@@ -24,6 +24,9 @@
                     <button type="submit" class="btn btn-success btn-block" class="submit"><span class="fas fa-power-off"></span> Login</button>
                 </form>
             </div>
+            <div class="modal-right">
+                <button type="button"  class="btn btn-danger btn-default pull-left" data-dismiss="modal" ><span class="fas fa-times"></span>Mot de passe perdu</button>
+            </div>
             <div class="modal-footer">
                 <button type="button"  class="btn btn-danger btn-default pull-left" data-dismiss="modal" ><span class="fas fa-times"></span> Cancel</button>
             </div>
