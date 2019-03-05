@@ -8,10 +8,10 @@
 			</TD>
 			<TD>
 				<INPUT type = 'text' name = 'nomEquipe'/>
-				<INPUT type = 'text' name = 'adresseEquipe'/>
-				<INPUT type = 'text' name = 'emailEquipe'/>
-				<INPUT type = 'text' name = 'dateEquipe'/>
-				<INPUT type = 'text' name = 'resumeActiviteEquipe'/>
+				<INPUT type = 'text' name = 'nbrPlaceEquipe'/>
+				<INPUT type = 'text' name = 'ageMinEquipe'/>
+				<INPUT type = 'text' name = 'ageMaxEquipe'/>
+				<INPUT type = 'text' name = 'SexeEquipe'/>
 			</td>		
 		</TR>
 		
