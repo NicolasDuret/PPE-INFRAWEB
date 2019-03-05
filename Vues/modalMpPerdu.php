@@ -13,7 +13,6 @@
                         <label for="id"><span class="fas fa-user"></span> Identifiant</label>
                         <input type="text" class="form-control" id="id1" name="id1" placeholder="Identifiant" required>
                     </div>
-
                     <button type="submit" class="btn btn-success btn-block" class="submit"><span class="fas fa-power-off"></span> Envoyer</button>
                 </form>
             </div>

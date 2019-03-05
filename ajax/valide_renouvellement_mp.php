@@ -7,8 +7,6 @@ $data 			= array();
 $data['success']=false;
 $supp=true;
 
-
-
 $tab=array();
 $maBD = new accesBD();
 $tab['id']=$_POST['id'];
