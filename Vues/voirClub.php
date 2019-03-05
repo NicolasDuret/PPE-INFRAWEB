@@ -1,5 +1,5 @@
 <div class="centrePage">
-<br><br><?php 
-echo $_SESSION['lesClubs'];
-?>
+    <br><br><?php
+    echo $_SESSION['lesClubs'];
+    ?>
 </div>
