@@ -31,9 +31,9 @@
                         EQUIPE
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item secretaire d-none" href="construction.php">Ajouter une equipe</a>
+                        <a class="dropdown-item" href="construction.php">Ajouter une equipe</a>
                         <a class="dropdown-item" href="construction.php">Voir une equipe</a>
-                        <a class="dropdown-item secretaire d-none" href="construction.php">Modifier une equipe</a>
+                        <a class="dropdown-item" href="construction.php">Midifier une equipe</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">

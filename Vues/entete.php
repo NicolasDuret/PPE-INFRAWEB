@@ -32,7 +32,7 @@
                 <img id="imgLogout" class="img-responsive" src="Images/logout.png"></img>';
         }
         ?>
-        <div class="phrase">Le sport c'est la vie</div>
+        <div class="phrase">Le sport c'est la vie !!!</div>
             <div class="cadreHautMilieu">
                 <div class="logo container">
                     <div class="Logo">
