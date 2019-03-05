@@ -235,6 +235,9 @@ $( document ).ready(function() {
 function hd(){
     $("#myModal").modal("hide");
 }
+function hdmp(){
+    $("#myModalMpPerdu").modal("hide");
+}
 function hdModalRetour(){
     $("#ModalRetour").modal("hide") ;
     document.location.href="index.php";

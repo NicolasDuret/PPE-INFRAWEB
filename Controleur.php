@@ -1,7 +1,6 @@
 <?php
 //include du fichier GESTION pour les objets (Modeles)
 include 'Modeles/gestionMairie.php';
-require 'Vues/modalRenouvellementMp.php';
 
 //classe CONTROLEUR qui redirige vers les bonnes vues les bonnes informations
 class Controleur
@@ -30,6 +29,9 @@ class Controleur
         require 'Vues/entete.php';
         require 'Vues/modalConnex.php';
         require 'Vues/modalRetour.php';
+        require 'Vues/modalMpPerdu.php';
+        require 'Vues/modalRenouvellementMp.php';
+
     }
 
 

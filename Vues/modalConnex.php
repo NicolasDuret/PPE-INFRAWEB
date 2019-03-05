@@ -3,7 +3,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title"><span class="fas fa-lock"></span> Formulaire de connexion</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close" ">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -22,7 +22,7 @@
                         <label class="radio-inline"><input type="radio" name="rblogin" id="rba" value="rba" required>Administrateur</label>
                     </div>
                     <button type="submit" class="btn btn-success btn-block" class="submit"><span class="fas fa-power-off"></span> Login</button>
-                    <button type="button" class="btn btn-success btn-block" id="mdpperdu">Mot de passe oublié</button>
+                    <button type="button" class="btn btn-success btn-block" id="mdpperdu" date-toggle="modal" data-target="#myModalMpPerdu">Mot de passe oublié</button>
                 </form>
             </div>
             <div class="modal-footer">
