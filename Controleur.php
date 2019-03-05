@@ -178,6 +178,57 @@ class Controleur
                 break;
         }
     }
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    //----------------------------EQUIPES--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    private function vueEquipes($action)
+    {
+        //SELON l'action demandée
+        switch ($action) {
+
+            //CAS ajout d'une Equipe---------------------------------------------------------------------------------------------------------
+            case "ajouter" :
+                require 'Vues/ajouterEquipes.php';
+                break;
+
+            //CAS visualisation des Equipes-------------------------------------------------------------------------------------------------
+            case "visualiser" :
+                if ($this->maMairie->donneNbEquipes() == 0) {
+                    $message = "Il n'existe pas d'Equipe";
+                    $lien = 'index.php?vue=equipe&action=ajouter';
+                    $_SESSION['message'] = $message;
+                    $_SESSION['lien'] = $lien;
+                    require 'Vues/erreur.php';
+                } else {
+                    $_SESSION['lesEquipes'] = $this->maMairie->listeLesEquipes();
+                    require 'Vues/voirEquipe.php';
+                }
+                break;
+
+            //CAS enregistrement d'une equipe dans la base------------------------------------------------------------------------------
+            case "enregistrer" :
+                $nomEquipe = $_POST['nomEquipe'];
+                $adresseEquipe = $_POST['adresseEquipe'];
+                $emailEquipe = $_POST['emailEquipe'];
+                $dateCreationEquipe = $_POST['dateCreation'];
+                $resumeActiviteEquipe = $_POST['resumeActiviteEquipe'];
+
+                if (empty($nomEquipe) || empty($adresseEquipe) || empty($emailEquipe) || empty($dateCreationEquipe) || empty($resumeActiviteEquipe)) {
+                    $message = "Veuillez saisir les informations";
+                    $lien = 'index.php?vue=equipe&action=ajouter';
+                    $_SESSION['message'] = $message;
+                    $_SESSION['lien'] = $lien;
+                    require 'Vues/erreur.php';
+                } else {
+                    $this->maMairie->ajouteUneEquipe($nomEquipe, $adresseEquipe, $emailEquipe, $dateCreationEquipe, $resumeActiviteEquipe);
+                    require 'Vues/enregistrer.php';
+                    //$_SESSION['Controleur'] = serialize($this);
+                }
+                break;
+
+        }
+    }
+
 
     // Acceptation du retour mail
 
