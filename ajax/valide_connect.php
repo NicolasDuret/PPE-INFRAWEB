@@ -5,9 +5,6 @@ $errors         = array();
 $data           = array();
 $data['success']=false;
 
-
-
-
 $tab=array();
 $maBD = new accesBD();
 $tab['id']=$_POST['id'];
