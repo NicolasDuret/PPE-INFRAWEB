@@ -28,4 +28,16 @@ else {echo "<script>$('#carouselExampleIndicators').removeClass('d-none').addCla
 //affichage du pied de page
 $monControleur->affichePiedPage();
 
+if ((isset($_GET['vue']))&& (isset($_GET['action']))){
+    echo "<script>$('#carouselExampleIndicators').removeClass('d-block').addClass('d-none');</script>";
+    if(!isset($_GET['token'])) {
+        $monControleur->affichePage($_GET['action'], $_GET['vue']);
+    }else {
+        echo "<script>$('#carouselExampleIndicators').removeClass('d-none').addClass('d-block');</script>";
+        $monControleur->affichePage1($_GET['action'],$_GET['vue'],$_GET['token']);
+    }
+}else {
+    echo "<script>$('#carouselExampleIndicators').removeClass('d-none').addClass('d-block');</script>";
+}
+
 ?>

@@ -194,5 +194,21 @@ class Controleur
 			}
 		}	
 
-	}	
+	}
+	// Acceptation du retour mail
+    require 'Vues/modalRenouvellementMp.php';
+    public function affichePage1($action,$vue,$token){
+        $_SESSION['token']=$token;switch ($vue){
+            case "motdepasse":{
+                $this->renouvellementMotDePasse($action);
+                break;
+            }
+        }
+    }
+    private function renouvellementMotDePasse($action){
+        if($action=='renouvellement'){
+            echo '<script>$("#myModalRenouvellementMp").modal();</script>';
+        }
+    }
+
 ?>
