@@ -33,7 +33,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="construction.php">Ajouter une equipe</a>
                         <a class="dropdown-item" href="construction.php">Voir une equipe</a>
-                        <a class="dropdown-item" href="construction.php">Midifier une equipe</a>
+                        <a class="dropdown-item secretaire d-none" href="construction.php">Modifier une equipe</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -44,7 +44,7 @@
                         <a class="dropdown-item secretaire d-none" href="construction.php">Ajouter un jour</a>
                         <a class="dropdown-item" href="construction.php">Voir un jour</a>
                         <a class="dropdown-item secretaire d-none" href="construction.php">Modifier un jour</a>
-                        <a class="dropdown-item" href="construction.php">Voir les equipes de la journ�e</a>
+                        <a class="dropdown-item" href="construction.php">Voir les equipes de la journee</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
