@@ -11,7 +11,7 @@
                         CLUB
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item secretaire d-none" href="index.php?vue=club&action=ajouter">Ajouter un club</a>
+                        <a class="dropdown-item administrateur d-none" href="index.php?vue=club&action=ajouter">Ajouter un club</a>
                         <a class="dropdown-item" href="index.php?vue=club&action=visualiser">Voir les club</a>
                         <a class="dropdown-item secretaire d-none" href="construction.php">Modifier un club</a>
                     </div>
