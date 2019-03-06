@@ -20,7 +20,7 @@
 	position: absolute;
 	top: 8vh;
 	left: 90%;
-	width: 3.5vw;
+	width: 6vw;
 	cursor: pointer;
 }
 
@@ -309,6 +309,14 @@ a{
 		font-weight: bold;
 		display: flex;
 
+	}
+
+	.img-responsive{
+		position: absolute;
+		top: 8vh;
+		left: 90%;
+		width: 3.5vw;
+		cursor: pointer;
 	}
 
 	.carousel-indicators {
