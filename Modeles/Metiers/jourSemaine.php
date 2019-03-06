@@ -8,7 +8,7 @@ Class jourSemaine
 	//CONSTRUCTEUR-----------------------------------------------------------------------------
 	public function __construct($unIdJourSemaine, $unLibelleJourSemaine)
 		{
-		$this->idJourSemaine = $unidJourSemaine;
+		$this->idJourSemaine = $unIdJourSemaine;
 		$this->libelleJourSemaine = $unLibelleJourSemaine;
 		}
 	
