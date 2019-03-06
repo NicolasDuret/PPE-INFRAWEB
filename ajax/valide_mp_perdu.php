@@ -24,7 +24,7 @@ if ($result)
         include_once 'class.smtp.php';
         $message = '<html><body>';
         $message .= '</br>La mairie d\'AUSSONNE vous adresse ce message suite à une demande de modification de mot de passe pour : '.$tab['id'].' ';
-        $message .= '</br> Nous vous prions de clicker sur le lien suivant http://localhost/PPE2_EPSI_Trav/index.php?vue=motdepasse&action=renouvellement&token='.$token;
+        $message .= '</br> Nous vous prions de clicker sur le lien suivant http://localhost/PPE_InfraWeb/index.php?vue=motdepasse&action=renouvellement&token='.$token;
         $message .='</body></html>';
         $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
         try {

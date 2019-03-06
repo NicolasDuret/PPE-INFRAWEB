@@ -42,8 +42,6 @@ class Controleur
     {
         //appel de la vue du pied de page
         require 'Vues/piedPage.php';
-        require 'Vues/voirEquipe.php';
-        require 'Vues/voirClub.php';
     }
 
 
@@ -66,6 +64,9 @@ class Controleur
         switch ($vue) {
             case "club":
                 $this->vueClub($action);
+                break;
+            case "equipe":
+                $this->vueEquipes($action);
                 break;
             case "ressource":
                 $this->vueRessource($action);

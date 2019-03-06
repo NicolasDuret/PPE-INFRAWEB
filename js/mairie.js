@@ -242,3 +242,6 @@ function hdModalRetour(){
     $("#ModalRetour").modal("hide") ;
     document.location.href="index.php";
 }
+function hdrmp(){
+    $("#myModalRenouvellementMp").modal("hide") ;
+}

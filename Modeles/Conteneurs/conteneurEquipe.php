@@ -32,10 +32,10 @@ Class conteneurEquipe
 		$liste = '';
 		foreach ($this->lesEquipes as $uneEquipe)
 			{	$sonClub=$uneEquipe->getClubDeLEquipe();
-			    $sonEntraineur = $UneEquipe->getEntraineurDeLEquipe();
+			    $sonEntraineur = $uneEquipe->getEntraineurDeLEquipe();
 				$saRessource = $uneEquipe->getRessourceDeLEquipe();
 				$sonJourSemaine = $uneEquipe->getJourEntrainementEquipe();
-				$liste = $liste.'Equipe : '.$unEquipe->getNomEquipe().' à pour Entraineur :'.$sonEntraineur->getNomEntraineur().' ils s entrainent le  :'.$sonJourSemaine->getLibelleJourSemaine().' a l endroit ci-nommé  :'.$saRessource->getNomRessource().'><br>';
+				$liste = $liste.'Equipe : '.$uneEquipe->getNomEquipe().' à pour Entraineur :'.$sonEntraineur->getNomEntraineur().' ils s entrainent le  :'.$sonJourSemaine->getLibelleJourSemaine().' a l endroit ci-nommé  :'.$saRessource->getNomRessource().'><br>';
 			}
 		return $liste;
 		}
