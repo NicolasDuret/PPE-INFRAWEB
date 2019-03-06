@@ -6,16 +6,21 @@
 }
 
 .phrase{
-	position: absolute;
-	right: 20vw;
-	top: 0vh;
+	position: relative;
 	text-align: center;
+	top: 0vh;
+	color: darkblue;
+	font-size : 25px;
 	font-weight: bold;
+	display: none;
 
 }
 
 .img-responsive{
-	width: 5vw;
+	position: absolute;
+	top: 8vh;
+	left: 90%;
+	width: 3.5vw;
 	cursor: pointer;
 }
 
@@ -294,6 +299,17 @@ a{
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+	.phrase{
+		position: relative;
+		justify-content: center;
+		text-align: center;
+		top: 0vh;
+		color: darkblue;
+		font-size : 25px;
+		font-weight: bold;
+		display: flex;
+
+	}
 
 	.carousel-indicators {
 		display: flex;
