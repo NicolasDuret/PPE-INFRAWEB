@@ -27,15 +27,34 @@ Class conteneurJourSemaine
 		}	
 		
 	//METHODE RETOURNANT LA LISTE DES JOURS SEMAINE-----------------------------------------------------------------------------------------
-	public function listeDesJoursSemaine()
-		{
-		$liste = '';
-		foreach ($this->lesJoursSemaine as $unJourSemaine)
-			{		
-				$liste = $liste.'Jour : "'.$unJourSemaine->getLibelleJourSemaine().'><br>';
-			}
-		return $liste;
+	public function listeDesJoursSemaine() {
+		$liste ='<div class="table-responsive">
+	<table id="tabjoursemaine" class="table table-striped table-bordered" cellspacing="0">
+		<thead>
+			<tr>
+			<td>Lundi</td>
+			<td>Mardi</td>
+			<td>Mercredi</td>
+			<td>Jeudi</td>
+			<td>Vendredi</td>
+			</tr>
+		</thead>
+	<tbody>';
+		foreach ($this->lesClubs as $unClub){
+			$liste = $liste.'
+	<tr>
+		<td>'.$unClub->getLundi().'</td>
+		<td>'.$unClub->getMardi().'</td>
+		<td>'.$unClub->getMercredi().'</td>
+		<td>'.$unClub->getJeudi().'</td>
+		<td>'.$unClub->getVendredi().'</td>
+	</tr>';
 		}
+$liste = $liste.'
+	</tbody>
+	</table>';
+return $liste;
+}
 		
 		//METHODE RETOURNANT LA LISTE DES jours de la semaine DANS UNE BALISE <SELECT>------------------------------------------------------------------
 	public function lesJoursSemaineAuFormatHTML()

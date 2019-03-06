@@ -252,5 +252,56 @@ class Controleur
             echo '<script>$("#myModalRenouvellementMp").modal();</script>';
         }
     }
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//----------------------------JOUR/SEMAINE--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    private function vuejourSemaine($action)
+    {
+        //SELON l'action demandée
+        switch ($action) {
+
+            //CAS ajout d'une Equipe---------------------------------------------------------------------------------------------------------
+            case "ajouter" :
+                require 'Vues/ajouterJour.php';
+                break;
+
+            //CAS visualisation des Equipes-------------------------------------------------------------------------------------------------
+            case "visualiser" :
+                if ($this->maMairie->donnejoursemaine() == 0) {
+                    $message = "Pas de planning";
+                    $lien = 'index.php?vue=joursemaine&action=ajouter';
+                    $_SESSION['message'] = $message;
+                    $_SESSION['lien'] = $lien;
+                    require 'Vues/erreur.php';
+                } else {
+                    $_SESSION['joursemaine'] = $this->maMairie->listejoursemaine();
+                    require 'Vues/voirJour.php';
+                }
+                break;
+
+            //CAS enregistrement d'une equipe dans la base------------------------------------------------------------------------------
+            case "enregistrer" :
+                $lundi = $_POST['lundi'];
+                $mardi = $_POST['mardi'];
+                $mercredi = $_POST['mercredi'];
+                $jeudi = $_POST['jeudi'];
+                $vendredi = $_POST['vendredi'];
+
+                if (empty($lundi) || empty($mardi) || empty($mercredi) || empty($jeudi) || empty($vendredi)) {
+                    $message = "Veuillez saisir les informations";
+                    $lien = 'index.php?vue=joursemaine&action=ajouter';
+                    $_SESSION['message'] = $message;
+                    $_SESSION['lien'] = $lien;
+                    require 'Vues/erreur.php';
+                } else {
+                    $this->maMairie->ajoutejoursemaine($lundi, $mardi, $mercredi, $jeudi, $vendredi);
+                    require 'Vues/enregistrer.php';
+                    //$_SESSION['Controleur'] = serialize($this);
+                }
+                break;
+
+        }
+    }
 }
 ?>

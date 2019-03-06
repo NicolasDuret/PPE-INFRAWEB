@@ -11,7 +11,7 @@
                         CLUB
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item administrateur d-none" href="index.php?vue=club&action=ajouter">Ajouter un club</a>
+                        <a class="dropdown-item secretaire d-none" href="index.php?vue=club&action=ajouter">Ajouter un club</a>
                         <a class="dropdown-item" href="index.php?vue=club&action=visualiser">Voir les club</a>
                         <a class="dropdown-item secretaire d-none" href="construction.php">Modifier un club</a>
                     </div>
@@ -41,10 +41,10 @@
                         JOUR / SEMAINE
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item secretaire d-none" href="construction.php">Ajouter un jour</a>
-                        <a class="dropdown-item" href="construction.php">Voir un jour</a>
-                        <a class="dropdown-item secretaire d-none" href="construction.php">Modifier un jour</a>
-                        <a class="dropdown-item" href="construction.php">Voir les equipes de la journee</a>
+                        <a class="dropdown-item secretaire d-none" href="ajouterJour.php">Ajouter un jour</a>
+                        <a class="dropdown-item" href="voirJour.php">Voir un jour</a>
+                        <a class="dropdown-item secretaire d-none" href="modifierJour.php">Modifier un jour</a>
+                        <a class="dropdown-item" href="voirEquipesJour.php">Voir les equipes de la journee</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -74,9 +74,9 @@
                         PLANNING
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item secretaire d-none" href="construction.php">Affecter une equipe</a>
-                        <a class="dropdown-item" href="construction.php">Voir le planning complet</a>
-                        <a class="dropdown-item secretaire d-none" href="construction.php">Modifier une affectation</a>
+                        <a class="dropdown-item administrateur d-none" href="construction.php">Affecter une equipe</a>
+                        <a class="dropdown-item administrateur d-none" href="construction.php">Voir le planning complet</a>
+                        <a class="dropdown-item administrateur d-none" href="construction.php">Modifier une affectation</a>
                     </div>
                 </li>
             </ul>
