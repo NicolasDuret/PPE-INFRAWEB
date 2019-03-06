@@ -33,8 +33,5 @@ Class jourSemaine
 		{
 		$this->libelleJourSemaine = $unLibelleJourSemaine;
 		}
-
-	
 	}
-	
 ?>

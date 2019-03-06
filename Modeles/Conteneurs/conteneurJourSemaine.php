@@ -27,7 +27,7 @@ Class conteneurJourSemaine
 		}	
 		
 	//METHODE RETOURNANT LA LISTE DES JOURS SEMAINE-----------------------------------------------------------------------------------------
-	public function listeDesJoursSemaine() {
+	public function listeDesjoursSemaine() {
 		$liste ='<div class="table-responsive">
 	<table id="tabjoursemaine" class="table table-striped table-bordered" cellspacing="0">
 		<thead>

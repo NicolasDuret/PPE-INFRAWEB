@@ -41,10 +41,10 @@
                         JOUR / SEMAINE
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item secretaire d-none" href="ajouterJour.php">Ajouter un jour</a>
-                        <a class="dropdown-item" href="voirJour.php">Voir un jour</a>
-                        <a class="dropdown-item secretaire d-none" href="modifierJour.php">Modifier un jour</a>
-                        <a class="dropdown-item" href="voirEquipesJour.php">Voir les equipes de la journee</a>
+                        <a class="dropdown-item secretaire d-none" href="index.php?vue=joursemaine&action=ajouter">Ajouter un jour</a>
+                        <a class="dropdown-item" href="index.php?vue=joursemaine&action=visualiser">Voir un jour</a>
+                        <a class="dropdown-item secretaire d-none" href=construction.php">Modifier un jour</a>
+                        <a class="dropdown-item" href=construction.php">Voir les equipes de la journee</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
